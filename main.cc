@@ -16,6 +16,7 @@ int main(int argc, char** argv)
         std::cout << "Terminiating the program";
         exit(EXIT_SUCCESS);
     }
+    if (argc > 1) {
     //9-29
         printf("\n");
         for(size_t i{}; i < argc; i++) {
